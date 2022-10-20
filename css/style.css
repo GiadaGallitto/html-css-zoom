@@ -8,16 +8,24 @@
     display: flex;
 }
 
-main{
-    height: calc(100vh - 5rem);
-    width: 100vw;
-    position: relative;
-    color: rgb(153, 24, 24);
+body{
     background-color: black;
 }
 
+.p-relative{
+    position: relative;
+}
+
+main{
+    height: calc(100vh - 8rem);
+    width: 100vw;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 footer{
-    height: 5rem;
+    height: 8rem;
     width: 100vw;
     position: fixed;
     background-color: #222222;
@@ -39,12 +47,19 @@ main .container{
     display: inline-block;
     width: 300px;
     height: 200px;
-    background-color: aquamarine;
+    background-image: url(https://picsum.photos/300/200);
+    background-size: contain;
     border: 2px solid black;
     margin-left: 0.6rem;
     margin-bottom: 1.6rem;
 }
 
-.no-margin{
-    margin-left: 0;
+.box>span{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
