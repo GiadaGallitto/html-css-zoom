@@ -20,7 +20,6 @@ main{
     height: 90vh;
     width: 100vw;
     color: white;
-    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
 }
@@ -88,16 +87,26 @@ nav{
     font-size: 1.5rem;
 }
 
+.footer-part div{
+    display: inline-block;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
 #mic-video{
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 
 span.icons{
     font-size: 3rem;
     padding-right: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
 .fa-chevron-up{
     font-size: 1rem;
+}
+
+i#green{
+    color: #49c300;
 }
