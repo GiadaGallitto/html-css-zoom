@@ -53,8 +53,7 @@ main .container{
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding: 5vh 0;
 }
 
 .container .box{
@@ -92,14 +91,13 @@ nav{
     text-align: center;
 }
 
-#mic-video{
+#mic-video, span.icons{
     padding-left: 1rem;
 }
 
 span.icons{
     font-size: 2rem;
     padding-right: 1rem;
-    padding-left: 1rem;
 }
 
 .fa-chevron-up{
